@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <center>
+    <div class="btn btn-primary heading">
+      Realtime Image Identification
+      <hr>
+      <center>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-11  sub-heading ">
+          Model is trained to identify object: 
+          <br>
+          <h3 class="btn btn-warning h3">bottel | mouse | book | headphones | pen </h3>
+        </div>
+      </center>
+      
+    </div>
+    <br>
+    <br>
+    <p class="result btn btn-warning">Object name:
+      <span id="name_result"></span>
+    </p>
+    <br>
+    <br>
+    <p class="result btn btn-warning">Accuracy:
+      <span id="Accuracy_result"></span>
+    </p>
+  </center>
+  <footer class="footer">Developed by:Aniket</footer>
+<script src="main.js"></script>
+</body>
+  
+
+</html>
+
+
